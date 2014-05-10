@@ -10,7 +10,7 @@ statuses = {
 }
 
 statuses.each do |status, color|
-  puts "<Style id=\"marker_#{status}\"><IconStyle><scale>0.5</scale><Icon><href>http://google.com/mapfiles/ms/micons/#{color}.png</href></Icon></IconStyle></Style>"
+  puts "<Style id=\"marker_#{status}\"><IconStyle><scale>0.25</scale><Icon><href>http://google.com/mapfiles/ms/micons/#{color}.png</href></Icon></IconStyle></Style>"
 end
 
 lights.each do |light|
